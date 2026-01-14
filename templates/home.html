@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub Tracker</title>
+</head>
+
+<body>
+    <h1>Sub Tracker</h1>
+    <p>Welcome to your subscription tracker!</p>
+
+    {% if user %}
+    <p>Logged in as: <strong>{{ user }}</strong></p>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    {% else %}
+    <p><a href="{{ url_for('login') }}">Login</a> | <a href="{{ url_for('register') }}">Register</a></p>
+    {% endif %}
+</body>
+
+</html>
