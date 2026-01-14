@@ -2,8 +2,6 @@
 
 A sleek, modern subscription tracking application built with Flask and Supabase. Track all your recurring payments in one place and never forget a subscription again.
 
-![Homepage](images/home-subtracker.png)
-
 ## Features
 
 - **User Authentication** - Secure sign up and login powered by Supabase Auth
